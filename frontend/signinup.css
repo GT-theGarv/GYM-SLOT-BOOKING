@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #0B0F19;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    max-width: 450px;       
+    padding: 40px 32px;     
+    border-radius: 16px;    
+    background-color: #161f30; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+h1, h3, h6{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E2E8F0;
+}
+.logo{
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+    height: auto;
+}
+
+.email, .pass, .name, .btn, .redirect{
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+}
+#email, #pass, #name, .btn button{
+    width: 80%;
+    padding: 14px;
+    background-color: #0b0f19; 
+    border: 1px solid #24334d;  
+    color: #ffffff;  
+    border-radius: 8px;
+}
+.redirect {
+    color: #94a3b8;         
+    font-size: 14px;
+}
+.redirect a {
+    color: #00f5d4;         
+    text-decoration: none;  
+}
+.redirect a:hover{
+    text-decoration: underline;
+}   
+footer {
+    margin-top: 19vh;
+    text-align: center;
+    padding: 20px 0;
+    color: #94a3b8;        
+    font-size: 14px;
+}
+span{
+    margin: 70px;
+}

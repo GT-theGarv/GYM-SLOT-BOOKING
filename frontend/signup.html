@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signinup.css">
+</head>
+<body>
+    <div class="main">
+        <img src="logo.png" alt="logo" class="logo">
+        <h3>THE GYM</h3>
+        <h6>Sign Up</h6>
+        <form action="">
+            <div class="name">
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="email">
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="pass">
+                <input type="password" id="pass" name="pass" required placeholder="Enter your password">
+            </div>
+        </form>
+        <div class="btn">
+            <button type="submit" value="submit" onclick="signup(event)">Sign Up</button>
+        </div>
+        <div class="redirect">
+            <p>Already have an account? <a href="signin.html">Sign In</a></p>
+        </div>
+    </div>
+    <footer>
+        <span>&copy; 2024 THE GYM. All rights reserved.</span><span>Address: 123 Fitness Street, Health City</span><span>Contact: 9697196971</span>
+    </footer>
+    <script src="logincheck.js"></script>
+</body>
+</html>

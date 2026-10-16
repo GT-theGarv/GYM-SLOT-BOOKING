@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymSlot</title>
+    <link rel="stylesheet" href="mainsite.css">
+</head>
+<body>
+    <div class="body">
+        <nav class="bar">
+            <img src="logo.png" alt="logo" class="logo">
+            <h3>TheGYM</h3>
+            <button class="sidebar">Slots</button>
+            <button class="sidebar">Waitlist</button>
+            <button class="sidebar">Mybookings</button>
+            <button class="sidebar" onclick="logout()">Logout</button>
+        </nav>
+        <div class="info">info
+            <div class="sessions">
+                <div class="box" id="6"><h2>6:00 AM</h2>
+                    <p>Slots: 10</p>
+                    <button class="book" onclick="book(event)">Book</button>
+                </div>
+                <div class="box" id="7"><h2>7:00 AM</h2>
+                    <p>Slots: 10</p>
+                    <button class="book" onclick="book(event)">Book</button>
+                </div>
+                <div class="box" id="8"><h2>8:00 AM</h2>
+                    <p>Slots: 10</p>
+                    <button class="book" onclick="book(event)">Book</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="logincheck.js"></script>
+</body>
+</html>
